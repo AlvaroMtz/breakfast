@@ -1,0 +1,103 @@
+{% extends 'website/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <header id="header" class="header" style="background: url('{% static "website/images/cover.JPG" %}');">
+      <div class="opacity_bg">
+        <nav class="menu container">
+          <img class="logo" src='{% static "website/images/logo_2x.png" %}'>
+          <ul>
+            <li>
+              <a href="#reto" class='active'>El reto</a>
+            </li>
+            <li>
+              <a href="#autora">La autora</a>
+            </li>
+            <li>
+              <a href="#desayunos">Los desayunos</a>
+            </li>
+          </ul>
+        </nav>
+        <img class="logo_big" src='{% static "website/images/logo_hero_2x.png" %}'>
+      </div>
+    </header>
+    <h1 class="titulo">Un desayuno por cada día del año<br>365 formas de empezar el día con la barriga feliz</h1>
+    
+    <section id="reto" class="container_1">
+      <h2 id="reto" class="subtitulo">El Reto</h2>
+      <p class="parrafos">Dicen que el desayuno es la comida más importante del día. Para mi es la más deliciosa.
+        Este 2017 voy a compartir lo que desayuno cada día. La mayoría serán <strong>platos preparados en casa</strong>, otras serán recomendaciones de los mejores restaurantes del lugar donde esté.</p>
+    </section>
+    
+    <section id="autora" class="container_1">
+    <h2>La Autora</h2>
+      <img src='{% static "website/images/nicole.png" %}' class='autora_img' alt="Nicole Chapaval"/>
+      <p class="parrafos">Soy una apasionada por la cocina, pero más que cocinar me gusta comer y compartir. Puedes encontrar muchas de mis recetas en
+      <a href="http://maldeadora.com/" target="_blank">mi blog</a>, seguir lo que como en mi día a día en <a href="https://www.instagram.com/maldeadora/" target="_blank">mi cuenta de Instagram</a>,
+      y conocer un poco más sobre el origen de los alimentos y las preparaciones que más me gustan en <a href="http://carretaderecetas.com/" target="_blank">Carreta de recetas</a>.</p>
+    </section>
+    
+    <section id="desayunos" class="container_1">
+      <h2>Los Desayunos</h2>
+      
+      <div class="desayuno_item">
+        <div class='numero'>
+          <p class='num'>No.</p>
+          <p class='num_1'>153</p>
+        </div>
+        <div class='item'>
+          <img class="item_img" src='{% static "website/images/cover.JPG" %}' alt="Cacerola de huevo"/>
+          <div class='item_desc'>
+            <h3>Aguacatico con huevo</h3>
+            <p>Este es un delicioso aguacatico con huevo, llevelo por solo mil pesos.</p>
+            <a href="#">Leer mas</a>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="desayuno_item">
+        <div class='numero'>
+          <p class='num'>No.</p>
+          <p class='num_1'>153</p>
+        </div>
+        <div class='item'>
+          <img class="item_img" src='{% static "website/images/cover.JPG" %}' alt="Cacerola de huevo"/>
+          <div class='item_desc'>
+            <h3>Aguacatico con huevo</h3>
+            <p>Este es un delicioso aguacatico con huevo, llevelo por solo mil pesos.</p>
+            <a href="#">Leer mas</a>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="desayuno_item">
+        <div class='numero'>
+          <p class='num'>No.</p>
+          <p class='num_1'>153</p>
+        </div>
+        <div class='item'>
+          <img class="item_img" src='{% static "website/images/cover.JPG" %}' alt="Cacerola de huevo"/>
+          <div class='item_desc'>
+            <h3>Aguacatico con huevo</h3>
+            <p>Este es un delicioso aguacatico con huevo, llevelo por solo mil pesos.</p>
+            <a href="#">Leer mas</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <section id="newsletter" class="container_1">
+      <h2 id="reto" class="subtitulo">Newsletter</h2>
+      <p class="parrafos">Entérate de cada desayuno y no te pierdas ninguna publicación.</p>
+      
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+{% endblock %}

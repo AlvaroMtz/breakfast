@@ -1,0 +1,76 @@
+.titulo{
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 70px;
+  color: #FFCA61;
+}
+.body{
+  font-family: 'Roboto', sans-serif;
+  color: #4C5F7A;
+}
+.menu{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+.menu li{
+  display: inline-block;
+  margin-left: 30px;
+  padding: 10px 10px 10px 5px;
+}
+.menu a{
+  color: #4C5F7A;
+  text-decoration: none;
+}
+.header{
+  background-color: #FFF5B5;
+  padding: 50px;
+  text-align: center;
+}
+.portada{
+  background-color: #C9F0D6;
+  margin-left: 0;
+  padding: 70px;
+  text-align: center;
+}
+.reto{
+  background-color: #F0FFF3;
+  padding: 50px;
+  text-align: center;
+}
+.parrafos{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.autora{
+  padding: 50px;
+  text-align: center;
+}
+.autora img{
+  border-radius: 50%;
+}
+.favoritos{
+  float: left;
+}
+.desayuno{
+  overflow: hidden;
+  width: 50%;
+}
+.button{
+  background-color: #F0FFF3;
+  border: none;
+  border-radius: 4px;
+  color: #4C5F7A;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 20px;
+  padding: 10px;
+}
+.footer{
+  background-color: #FFF5B5;
+  padding: 30px;
+  text-align: center;
+}
+.footer h3{
+  color: #FFCA61;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 50px;
+  margin-bottom: 10px;
+}

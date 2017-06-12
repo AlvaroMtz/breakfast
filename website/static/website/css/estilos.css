@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #2b2e30;
+  font-family: 'PT Sans';
+}
+
+h1{
+  font-size: 32px;
+  font-style: italic;
+  line-height: 1.0;
+  color: #84888a;
+  border-left: 5px solid #ff9d43;
+  padding-left: 40px;
+  width: 550px;
+  margin: 32px auto 0 auto;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Noto Serif';
+  font-size: 40px;
+  color: #2b2e30;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+p {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff9d43;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.container_1 {
+  display: block;
+  width: 580px;
+  margin: 32px auto 0 auto;
+}
+
+#autora .autora_img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  margin-left: -155px;
+}
+
+#header {
+  background-position: center center !important;
+  background-size: 100% auto !important;
+}
+
+  #header .opacity_bg {
+    text-align: center;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.35));
+  }
+
+  #header .logo_big {
+    height: 237px;
+    margin: 85px auto 0 auto;
+    display: block;
+  }
+
+.menu {
+  text-align: left;
+}
+
+  .menu .logo {
+    height: 47px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 18px
+  }
+
+  .menu ul {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+  }
+
+    .menu ul li {
+      list-style: none;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .menu ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #2b2e30;
+      margin: 24px 20px 16px 20px;
+      padding-bottom: 8px;
+    }
+
+    .menu ul li a.active {
+      border-bottom: 4px solid #ff9d43;
+    }
+
+#desayunos h2{
+  margin-bottom:48px;
+}
+
+  #desayunos hr {
+    width: 780px;
+    margin: 32px 0 32px 0;
+    margin-left: -120px;
+    height: 1px;
+    background-color: #bfc6ca;
+    border: none;
+  }
+
+  #desayunos .desayuno_item .item {
+    margin-left: 40px;
+  }
+    #desayunos .desayuno_item .numero {
+      float: left;
+      margin-left: -65px;
+    }
+      #desayunos .desayuno_item .numero .num {
+        font-size: 32px;
+        font-style: italic;
+        line-height: 1.0;
+        text-align: right;
+        color: #84888a;
+        margin: 0;
+      }
+
+      #desayunos .desayuno_item .numero .num_1 {
+        font-family: 'Noto Serif';
+        font-size: 40px;
+        text-align: right;
+        color: #2b2e30;
+        margin: 0;
+      }
+
+    #desayunos .desayuno_item .item .item_img {
+      width: 240px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    #desayunos .desayuno_item .item .item_desc {
+      display: inline-block;
+      vertical-align: middle;
+      width: 260px;
+      margin-left: 25px;
+    }
+
+      #desayunos .desayuno_item .item .item_desc p {
+        margin-left: 0;
+        color: #84888a;
+      }
