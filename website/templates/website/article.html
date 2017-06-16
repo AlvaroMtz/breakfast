@@ -1,0 +1,42 @@
+{% extends 'website/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <header id="header" class="header" >
+        {% include "website/nav.html" %}
+    </header>
+    <section id="article" class="container_1">
+        <div class='numero'>
+          <p class='num'>No.</p>
+          <p class='num_1'>153</p>
+        </div>
+        <img class="item" itemprop="image" src='{% static "website/images/barbacoa.jpg" %}' alt="Molletes caseros"/>
+      <h1 itemprop="name">Barbacoa y otros desayunos deliciosos en México</h1>
+      <p itemprop="author">Nicole Chapaval</p>
+      <p>La comida mexicana es una de las más variadas que conozco. Su diversidad de sabores, colores, aromas y texturas
+         atraen comensales de todo el mundo a probar lo que ofrece un país lleno de cultura.
+      </p>
+      <p>En esta ocasión quiero hablar sobre platos que suelen servirse como desayuno en las mesas mexicanas. Uno de mis
+         platos favoritos son los molletes, una preparación a base de pan -usualmente se usan bolillos tostados-, frijol
+         refrito, queso y pico de gallo. Es un desayuno típico en los hogares de México aunque también se encuentra en
+         muchos restaurantes.
+      </p>
+      <h2>Barbacoa de res, el desayuno de los domingos</h2>
+      <p>La barbacoa puede ser mi plato favorito de México. En principio el término hace referencia a una forma de preparar
+         carnes en su propio jugo o al vapor, y aunque esta es una técnica precolombina conocida en muchos países, hace
+         parte de la cocina tradicional del centro de México.
+      </p>
+      <p>La preparación de la barbacoa consiste en la cocción de la carne, que puede ser de res, oveja o cabra, dentro de
+        un pozo de entre uno y dos metros de profundidad que se cava en el suelo. En la base del pozo se colocan piedras
+        calientes y la carne se cocina envuelta en pencas de maguey, que sirven para aislarla del calor directo y que aportan
+        su característico sabor.
+      </p>
+      <p>Los acompañamientos de la barbacoa suelen ser el consomé de los jugos que salen de la cocción, café de olla y por
+        supuesto unas ricas tortillas y salsas para armar tacos.
+      </p>
+      <img itemprop="image" src='{% static "website/images/molletes.jpg" %}' alt="Tacos de barbacoa"/>
+      <p>Aunque no es una preparación simple como para intentar en casa es un plato exquisito que recomiendo probar un
+        domingo en la mañana.
+      </p>
+    </section>
+{% endblock %}

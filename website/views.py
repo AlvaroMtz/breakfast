@@ -12,3 +12,12 @@ class HomeView(View):
     def get(self, request, *args, **kwargs):
         data = dict()
         return render(request, self.template_name, data)
+
+
+class ArticleView(View):
+    template_name = 'website/article.html'
+
+    def get(self, request, *args, **kwargs):
+        data = dict()
+        return render(request, self.template_name, data)
+
