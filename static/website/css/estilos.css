@@ -1,76 +1,246 @@
-.titulo{
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 70px;
-  color: #FFCA61;
-}
-.body{
-  font-family: 'Roboto', sans-serif;
-  color: #4C5F7A;
-}
-.menu{
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-}
-.menu li{
-  display: inline-block;
-  margin-left: 30px;
-  padding: 10px 10px 10px 5px;
-}
-.menu a{
-  color: #4C5F7A;
-  text-decoration: none;
-}
-.header{
-  background-color: #FFF5B5;
-  padding: 50px;
-  text-align: center;
-}
-.portada{
-  background-color: #C9F0D6;
-  margin-left: 0;
-  padding: 70px;
-  text-align: center;
-}
-.reto{
-  background-color: #F0FFF3;
-  padding: 50px;
-  text-align: center;
-}
-.parrafos{
-  padding-left: 150px;
-  padding-right: 150px;
-}
-.autora{
-  padding: 50px;
-  text-align: center;
-}
-.autora img{
-  border-radius: 50%;
-}
-.favoritos{
-  float: left;
-}
-.desayuno{
-  overflow: hidden;
-  width: 50%;
-}
-.button{
-  background-color: #F0FFF3;
-  border: none;
-  border-radius: 4px;
-  color: #4C5F7A;
-  font-family: 'Patrick Hand SC', cursive;
+body {
+  margin: 0;
+  padding: 0;
   font-size: 20px;
-  padding: 10px;
+  color: #2b2e30;
+  font-family: 'PT Sans';
 }
-.footer{
-  background-color: #FFF5B5;
-  padding: 30px;
-  text-align: center;
+
+h1{
+  font-size: 32px;
+  font-style: italic;
+  line-height: 1.0;
+  color: #84888a;
+  border-left: 5px solid #ff9d43;
+  padding-left: 40px;
+  width: 550px;
+  margin: 32px auto 0 auto;
+  font-weight: 100;
 }
-.footer h3{
-  color: #FFCA61;
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 50px;
-  margin-bottom: 10px;
+
+h2 {
+  font-family: 'Noto Serif';
+  font-size: 40px;
+  color: #2b2e30;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+p {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff9d43;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.container_1 {
+  display: block;
+  width: 580px;
+  margin: 32px auto 0 auto;
+}
+
+#autora .autora_img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  margin-left: -155px;
+}
+
+#header {
+  background-position: center center !important;
+  background-size: 100% auto !important;
+}
+
+  #header .opacity_bg {
+    text-align: center;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.35));
+  }
+
+  #header .logo_big {
+    height: 237px;
+    margin: 85px auto 0 auto;
+    display: block;
+  }
+
+.menu {
+  text-align: left;
+}
+
+  .menu .logo {
+    height: 47px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 18px
+  }
+
+  .menu ul {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+  }
+
+    .menu ul li {
+      list-style: none;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .menu ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #2b2e30;
+      margin: 24px 20px 16px 20px;
+      padding-bottom: 8px;
+    }
+
+    .menu ul li a.active {
+      border-bottom: 4px solid #ff9d43;
+    }
+
+#desayunos h2{
+  margin-bottom:48px;
+}
+
+  #desayunos hr {
+    width: 780px;
+    margin: 32px 0 32px 0;
+    margin-left: -120px;
+    height: 1px;
+    background-color: #bfc6ca;
+    border: none;
+  }
+
+  #desayunos .desayuno_item .item {
+    margin-left: 40px;
+  }
+    #desayunos .desayuno_item .numero {
+      float: left;
+      margin-left: -65px;
+    }
+      #desayunos .desayuno_item .numero .num {
+        font-size: 32px;
+        font-style: italic;
+        line-height: 1.0;
+        text-align: right;
+        color: #84888a;
+        margin: 0;
+      }
+
+      #desayunos .desayuno_item .numero .num_1 {
+        font-family: 'Noto Serif';
+        font-size: 40px;
+        text-align: right;
+        color: #2b2e30;
+        margin: 0;
+      }
+
+    #desayunos .desayuno_item .item .item_img {
+      width: 240px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    #desayunos .desayuno_item .item .item_desc {
+      display: inline-block;
+      vertical-align: middle;
+      width: 260px;
+      margin-left: 25px;
+    }
+
+      #desayunos .desayuno_item .item .item_desc p {
+        margin-left: 0;
+        color: #84888a;
+      }
+
+#newsletter {
+  margin: 32px auto 100px auto;
+}
+
+#newsletter .parrafos {
+  margin-left: 0;
+  color: #84888a;
+}
+
+#newsletter .mc-field-group input {
+  width: 100%;
+  height: 24px;
+  background-color: #ebf1f5;
+  border: solid 1px #84888a;
+  font-size: 20px;
+  padding: 13px 16px;
+  color: #84888a;
+  margin-left: 35px;
+}
+
+#newsletter .mc-field-group input#mce-FNAME {
+  margin-bottom: 16px;
+}
+
+#newsletter #mc-embedded-subscribe {
+  margin-left: 35px;
+  margin-top: 34px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ff9d43;
+  font-family: 'PT Sans';
+  border: 0;
+  padding: 13px 16px;
+} 
+
+#article {
+  margin-bottom: 70px;
+}
+
+#article img {
+  width: 578px;
+}
+
+#article p {
+  margin-left: 0;
+  color: #84888a;
+}
+
+#article .numero {
+  display: inline-block;
+  vertical-align: top;
+  float:left;
+  margin-left: -83px;
+}
+
+#article .item{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#article .numero .num {
+  font-size: 32px;
+  font-style: italic;
+  line-height: 1.0;
+  text-align: right;
+  color: #84888a;
+  margin: 0;
+}
+
+#article .numero .num_1 {
+  font-family: 'Noto Serif';
+  font-size: 40px;
+  text-align: right;
+  color: #2b2e30;
+  margin: 0;
 }
