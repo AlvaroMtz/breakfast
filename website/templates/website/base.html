@@ -24,8 +24,110 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <link rel="stylesheet" href='{% static "website/css/estilos.css" %}'/>
     <link rel="shortcut icon" type="image/x-icon" href='{% static "website/images/favicon.ico" %}'>
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-66936533-4', 'auto', {
+        allowLinker: true
+    });
+
+    ga('send', 'pageview', {
+        '&cd1': 'Free',
+        'metric1': 1,
+    });
+
+
+    ga('set', 'dimension1', 'Free');
+
+    ga('set', 'userId', 'USER_ID');
+
+    ga('send', 'event', 'Pagina', 'Scroll', 'http://instagram.com', {
+        'dimension1': 'Free',
+        '&cm1': 10,
+    });
+
+    ga('send', 'social', 'Facebook', 'Like', 'https://365desayunos.com');
+
+    try {
+        window.funcionQueNoExiste();
+    } catch (err) {
+        ga('send', 'exception', {
+            'exDescription': err.message,
+            'exFatal': false
+        });
+    }
+
+    ga('require', 'linker');
+
+    ga('linker:autoLink', ['dominio1.com', 'dominio2.com'], false, true);
+
+    ga('require', 'ec');
+
+    ga('ec:addImpression', {
+        'id': 'P345',
+        'name': 'Camisa Negra',
+        'category': 'Ropa',
+        'brand': 'Nike',
+        'variant': 'Black',
+        'list': 'Resultado de una busqueda',
+        'position': 1,
+    });
+
+    ga('ec:addProduct', {
+        'id': 'P345',
+        'name': 'Camisa Negra',
+        'category': 'Ropa',
+        'brand': 'Nike',
+        'variant': 'Black',
+        'position': 1,
+    });
+
+    ga('ec:setAction', 'click', {
+        'list': 'Resultado de una busqueda'
+    });
+
+    ga('ec:setAction', 'detail', {
+        'step': 1,
+    });
+
+    ga('ec:setAction', 'checkout', {
+        'step': 2,
+        'option': 'Visa'
+    });
+
+    ga('ec:setAction', 'purchase', {
+        'id': '5677885',
+        'affiliation': 'Tienda de Ropa para hombres',
+        'revenue': '37.80',
+        'tax': '1.30',
+        'shipping': '0.0',
+        'coupon': 'PROMO-2016'
+    });
+
+    ga('set', 'page', '/home');
+
+    ga('send', 'pageview')
+
+    </script>
+    <!-- End Google Analytics -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KVLGLJN');</script>
+    <!-- End Google Tag Manager -->
+
   </head>
   <body class="body">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVLGLJN"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 	{% block content %}
 	{% endblock %}
   </body>

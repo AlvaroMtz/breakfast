@@ -29,7 +29,9 @@ SECRET_KEY = 'du2ci3l9b9-usc1y8ai(fss$zt6fgez!s7xg-ak7)^7m)29%94'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    '127.0.0.1',
+    'dominio1.com',
+    'dominio2.com'
 ]
 
 
